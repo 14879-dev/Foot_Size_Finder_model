@@ -1,0 +1,49 @@
+{
+  "model": {
+    "default_path": "models/best.pt",
+    "fallback_paths": [
+      "best.pt",
+      "C:/Users/dell/Downloads/best.pt"
+    ],
+    "conf_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "device": "auto"
+  },
+  "reference_objects": {
+    "bank_card": {
+      "name": "Standard Credit / Debit / ID Card (ISO/IEC 7810 ID-1)",
+      "width_mm": 85.60,
+      "height_mm": 53.98,
+      "aspect_ratio": 1.5858,
+      "aspect_ratio_tolerance": 0.25
+    },
+    "a4_paper": {
+      "name": "A4 Paper Sheet (ISO 216)",
+      "width_mm": 297.00,
+      "height_mm": 210.00,
+      "aspect_ratio": 1.4142,
+      "aspect_ratio_tolerance": 0.20
+    },
+    "coin_standard": {
+      "name": "Standard Coin (1-inch / 25mm diameter)",
+      "width_mm": 25.00,
+      "height_mm": 25.00,
+      "aspect_ratio": 1.0,
+      "aspect_ratio_tolerance": 0.15
+    }
+  },
+  "image_validation": {
+    "min_dimension": 300,
+    "max_dimension": 4096,
+    "max_file_size_mb": 15.0,
+    "min_blur_variance": 60.0,
+    "min_mean_brightness": 35.0,
+    "max_mean_brightness": 235.0
+  },
+  "foot_landmarks": {
+    "min_contour_area_ratio": 0.01,
+    "min_aspect_ratio": 1.5,
+    "max_aspect_ratio": 4.5,
+    "slice_band_ratio": 0.20
+  }
+}

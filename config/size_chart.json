@@ -1,0 +1,75 @@
+{
+  "chart_metadata": {
+    "name": "Khybersole Traditional Peshawari Chappal Size Chart",
+    "version": "1.0.0",
+    "status": "sample_development_data",
+    "notes": "Verified against standard Pakistani/UK footwear lasts. A fitting allowance of 5mm-8mm is included between foot length and chappal sole length.",
+    "last_updated": "2026-10-18"
+  },
+  "default_allowance_mm": 6.0,
+  "sizes": [
+    {
+      "size_pk_uk": 6,
+      "size_eu": 39,
+      "size_us": 7,
+      "min_foot_length_mm": 240.0,
+      "max_foot_length_mm": 248.0,
+      "recommended_foot_length_mm": 244.0,
+      "label": "Size 6 (UK / PK) — Small"
+    },
+    {
+      "size_pk_uk": 7,
+      "size_eu": 40,
+      "size_us": 8,
+      "min_foot_length_mm": 248.1,
+      "max_foot_length_mm": 257.0,
+      "recommended_foot_length_mm": 252.0,
+      "label": "Size 7 (UK / PK) — Medium-Small"
+    },
+    {
+      "size_pk_uk": 8,
+      "size_eu": 41,
+      "size_us": 9,
+      "min_foot_length_mm": 257.1,
+      "max_foot_length_mm": 266.0,
+      "recommended_foot_length_mm": 261.0,
+      "label": "Size 8 (UK / PK) — Medium"
+    },
+    {
+      "size_pk_uk": 9,
+      "size_eu": 42,
+      "size_us": 10,
+      "min_foot_length_mm": 266.1,
+      "max_foot_length_mm": 275.0,
+      "recommended_foot_length_mm": 270.0,
+      "label": "Size 9 (UK / PK) — Medium-Large"
+    },
+    {
+      "size_pk_uk": 10,
+      "size_eu": 43,
+      "size_us": 11,
+      "min_foot_length_mm": 275.1,
+      "max_foot_length_mm": 284.0,
+      "recommended_foot_length_mm": 279.0,
+      "label": "Size 10 (UK / PK) — Large"
+    },
+    {
+      "size_pk_uk": 11,
+      "size_eu": 44,
+      "size_us": 12,
+      "min_foot_length_mm": 284.1,
+      "max_foot_length_mm": 293.0,
+      "recommended_foot_length_mm": 288.0,
+      "label": "Size 11 (UK / PK) — Extra Large"
+    },
+    {
+      "size_pk_uk": 12,
+      "size_eu": 45,
+      "size_us": 13,
+      "min_foot_length_mm": 293.1,
+      "max_foot_length_mm": 305.0,
+      "recommended_foot_length_mm": 298.0,
+      "label": "Size 12 (UK / PK) — Double XL"
+    }
+  ]
+}
